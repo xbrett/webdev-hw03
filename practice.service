@@ -1,5 +1,5 @@
 [Unit]
-Description=Practicee
+Description=Practice
 
 [Service]
 Type=simple
