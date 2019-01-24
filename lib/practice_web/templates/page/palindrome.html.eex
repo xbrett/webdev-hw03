@@ -3,6 +3,7 @@
     <p><%= link "← go back", to: "/" %></p>
     <h2>Palindrome</h2>
     
-    <p>Is <%= @x %> a palindrome: <%= @y %></p>
+    <p>Input: <%= @x %></p> 
+    <p>palindrome: <%= @y %></p>
   </div>
 </div>
