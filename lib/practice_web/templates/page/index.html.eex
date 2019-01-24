@@ -12,7 +12,7 @@
     <h2>Arithmetic Expressions</h2>
 
     <%= form_for @conn, "/calc", fn f -> %>
-      <p>Enter expression: <%= text_input f, :expr, placeholder: "2 + 3 * 4" %></p>
+      <p>Enter expression: <%= text_input f, :expr %></p>
       <p><%= submit "Evaluate" %></p>
     <% end %>
   </div>
