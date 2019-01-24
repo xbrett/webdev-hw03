@@ -1,0 +1,16 @@
+[Unit]
+Description=Practicee
+
+[Service]
+Type=simple
+User=hw03
+Group=hw03
+Restart=on-failure
+Environment=MIX_ENV=prod "PORT=4791"
+Environment=LANG=en_US.UTF-8
+
+WorkingDirectory=/home/hw03/webdev-hw03
+ExecStart=/home/hw03/webdev-hw03/start.sh
+
+[Install]
+WantedBy=multi-user.target
